@@ -61,7 +61,7 @@ export const skills = [
   },
   {
     id: 5,
-    title: "Node.js & Express",
+    title: "Node.js & Express Js",
   },
   {
     id: 6,

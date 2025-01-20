@@ -82,13 +82,14 @@ function HeroSection() {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] sm:w-[250px] sm:h-[250px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] sm:w-[250px] sm:h-[250px] relative overflow-hidden">
             <Image
               src="/images/kunal.jpeg"
               alt="kunal-image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full  "
               width={300}
               height={300}
+              sizes="(max-width: 640px) 150px, (max-width: 1024px) 250px, 400px"
             />
           </div>
         </motion.div>

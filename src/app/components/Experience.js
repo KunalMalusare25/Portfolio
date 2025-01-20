@@ -8,12 +8,12 @@ function Experience() {
       </h1>
       <div className="relative max-w-5xl mx-auto">
         {/* Vertical Line for Timeline */}
-        <div className="absolute top-10 left-2.5 w-[2px] bg-white h-80"></div>
+        <div className="absolute top-10 left-2.5 w-[2px] bg-white h-[420px]"></div>
 
         {/* Experience Item 0 */}
-        <div className="relative mb-12 pl-12">
+        <div className="relative mb-12 pl-12 ">
           {/* Timeline Dot */}
-          <div className="absolute left-0 top-4 w-6 h-6 bg-purple-600 border-2 border-white rounded-full animate-bounce"></div>
+          <div className="absolute left-0 top-4 w-6 h-6 bg-purple-500 border-4 border-white rounded-full animate-bounce"></div>
           <div className="bg-[#181818] p-6 rounded-lg shadow-lg">
             <div className="flex justify-between items-center">
               <h3 className="text-lg font-semibold text-white">
@@ -24,19 +24,27 @@ function Experience() {
             <p className="mt-2 text-gray-400 italic">Jr. Software Developer</p>
             <ul className="mt-4 list-disc list-inside text-gray-300 space-y-2">
               <li>
-                Perform end-to-end data migration, managing large datasets,
-                optimizing data transformation processes, and minimizing system
-                downtime during transitions.
+                Developed React forms for collecting defaulter details,
+                including photo and ID proof uploads, with seamless API
+                integration for data handling.
               </li>
               <li>
-                Continuously optimize backend performance, focusing on reducing
-                response times, improving database queries, and enhancing system
-                efficiency.
+                Built an admin panel in React for viewing, editing, and managing
+                defaulter and membership data, improving administrative control.
               </li>
               <li>
-                Collaborate with cross-functional teams, including frontend
-                developers, to ensure smooth integration and consistent user
-                experiences.
+                Integrated APIs for efficient data flow between frontend forms
+                and backend services, ensuring accurate data processing and
+                submission.
+              </li>
+              <li>
+                Created a book recommendation app using React Native, which
+                provides personalized suggestions based on user goals and
+                interests, with a backend developed in Express.js.
+              </li>
+              <li>
+                Designed and developed the backend in Express.js to support the
+                React Native mobile app, optimizing performance and scalability.
               </li>
             </ul>
           </div>
